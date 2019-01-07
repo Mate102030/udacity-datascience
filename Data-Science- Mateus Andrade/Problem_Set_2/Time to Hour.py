@@ -13,11 +13,5 @@ def time_to_hour(time):
         
     Please return hour as an integer.
     '''
-    hour = int(time[0:2])# your code here
-    
-    #Alternative solution:
-    #hour = pandas.to_datetime(time).hour
-    #minute=pandas.to_datetime(time).minute
-    #second=pandas.to_datetime(time).second
-    
+    hour = int(time[0:2])
     return hour
